@@ -20,10 +20,11 @@ for the case where no side can honestly be named.
 ## The numbers to read first
 
 - **The blind spot, measured.** With the identical strict less-than window
-  bug planted on both sides, parity reports 0 mismatches while 35 pairs are
-  wrong across 17 users: 5.8% of all pairs, silently. Across five corpus
-  seeds the blind spot covers between 3.5% and 6.5% of pairs. Every one of
-  those wrong values trains or scores the churn model unchallenged.
+  bug planted on both sides, parity reports 0 mismatches while the referee
+  finds 35 wrong pairs across 17 users: 5.8% of all pairs, silently. Across
+  five corpus seeds the blind spot covers between 3.5% and 6.5% of pairs.
+  Every one of those wrong values trains or scores the churn model
+  unchallenged.
 - **Attribution, when parity can only shrug.** The planted serving-side
   window bug produces 35 mismatches, and the referee attributes all 35
   mismatches to serving; the as-of-now leak on the offline side corrupts 248
