@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="350" viewBox="0 0 860 350">
+<rect width="860" height="350" fill="#fcfdfe"/>
+<text x="430.0" y="26" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d2733">What the parity diff sees vs what is actually wrong</text>
+<line x1="70" y1="272.0" x2="830" y2="272.0" stroke="#dde5ec"/>
+<text x="62" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">0</text>
+<line x1="70" y1="236.38172043010752" x2="830" y2="236.38172043010752" stroke="#dde5ec"/>
+<text x="62" y="240.38172043010752" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">50</text>
+<line x1="70" y1="200.76344086021504" x2="830" y2="200.76344086021504" stroke="#dde5ec"/>
+<text x="62" y="204.76344086021504" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">100</text>
+<line x1="70" y1="165.14516129032256" x2="830" y2="165.14516129032256" stroke="#dde5ec"/>
+<text x="62" y="169.14516129032256" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">150</text>
+<line x1="70" y1="129.52688172043008" x2="830" y2="129.52688172043008" stroke="#dde5ec"/>
+<text x="62" y="133.52688172043008" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">200</text>
+<line x1="70" y1="93.9086021505376" x2="830" y2="93.9086021505376" stroke="#dde5ec"/>
+<text x="62" y="97.9086021505376" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" font-weight="normal" fill="#1d2733">250</text>
+<rect x="93.43333333333334" y="272.0" width="38.0" height="0.0" fill="#2b6777"/>
+<text x="112.43333333333334" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">0</text>
+<rect x="135.23333333333335" y="272.0" width="38.0" height="0.0" fill="#9a3b3b"/>
+<text x="154.23333333333335" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">0</text>
+<text x="133.33333333333334" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">clean</text>
+<text x="133.33333333333334" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#2b6777">CLEAN</text>
+<rect x="220.1" y="247.06720430107526" width="38.0" height="24.932795698924735" fill="#2b6777"/>
+<text x="239.1" y="241.06720430107526" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">35</text>
+<rect x="261.9" y="247.06720430107526" width="38.0" height="24.932795698924735" fill="#9a3b3b"/>
+<text x="280.9" y="241.06720430107526" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">35</text>
+<text x="260.0" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">serving_window</text>
+<text x="260.0" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#9a3b3b">DEFECTS</text>
+<rect x="346.7666666666667" y="267.01344086021504" width="38.0" height="4.9865591397849585" fill="#2b6777"/>
+<text x="365.7666666666667" y="261.01344086021504" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">7</text>
+<rect x="388.56666666666666" y="267.01344086021504" width="38.0" height="4.9865591397849585" fill="#9a3b3b"/>
+<text x="407.56666666666666" y="261.01344086021504" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">7</text>
+<text x="386.6666666666667" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">null_bug</text>
+<text x="386.6666666666667" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#9a3b3b">DEFECTS</text>
+<rect x="473.4333333333334" y="95.3333333333333" width="38.0" height="176.66666666666669" fill="#2b6777"/>
+<text x="492.4333333333334" y="89.3333333333333" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">248</text>
+<rect x="515.2333333333333" y="95.3333333333333" width="38.0" height="176.66666666666669" fill="#9a3b3b"/>
+<text x="534.2333333333333" y="89.3333333333333" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">248</text>
+<text x="513.3333333333334" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">offline_leak</text>
+<text x="513.3333333333334" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#9a3b3b">DEFECTS</text>
+<rect x="600.1" y="160.87096774193546" width="38.0" height="111.12903225806454" fill="#2b6777"/>
+<text x="619.1" y="154.87096774193546" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">156</text>
+<rect x="641.9" y="160.87096774193546" width="38.0" height="111.12903225806454" fill="#9a3b3b"/>
+<text x="660.9" y="154.87096774193546" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">156</text>
+<text x="640.0" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">offline_tz</text>
+<text x="640.0" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#9a3b3b">DEFECTS</text>
+<rect x="726.7666666666668" y="272.0" width="38.0" height="0.0" fill="#2b6777"/>
+<text x="745.7666666666668" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">0</text>
+<rect x="768.5666666666667" y="247.06720430107526" width="38.0" height="24.932795698924735" fill="#9a3b3b"/>
+<text x="787.5666666666667" y="241.06720430107526" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="#1d2733">35</text>
+<text x="766.6666666666667" y="288" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d2733">shared_window</text>
+<text x="766.6666666666667" y="303" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#9a3b3b">DEFECTS</text>
+<text x="766.6666666666667" y="54" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#9a3b3b">the blind spot: parity 0, wrong 35</text>
+<rect x="708.4000000000001" y="68" width="116.53333333333335" height="204" fill="none" stroke="#9a3b3b" stroke-width="1.6" stroke-dasharray="6 4"/>
+<rect x="76" y="62" width="12" height="12" fill="#2b6777"/>
+<text x="94" y="72" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="#1d2733">parity mismatches (what the diff reports)</text>
+<rect x="76" y="82" width="12" height="12" fill="#9a3b3b"/>
+<text x="94" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="#1d2733">pairs actually wrong vs the spec referee</text>
+<text x="450.0" y="340" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d2733">120 users, 600 user-feature pairs per scenario, seeded fixtures</text>
+</svg>

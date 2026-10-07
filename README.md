@@ -116,6 +116,16 @@ read green first. The repair commit says exactly that, and the convention it
 re-learned (verify, read, then commit) is the one this repository now
 follows.
 
+## Measured, drawn
+
+Rendered by `tools/render_charts.py` straight from the experiment JSON; CI
+regenerates both charts and fails on any drift, the same contract the prose
+lives under.
+
+<img src="docs/chart-blindspot.svg" width="860" alt="grouped bars per scenario: parity mismatches vs pairs actually wrong; the shared window scenario shows parity 0 against 35 wrong pairs inside a dashed box">
+
+<img src="docs/chart-leak.svg" width="860" alt="horizontal bars of corrupted pairs per feature under the as-of-now leak, 248 of 600 total, days_since_last_login worst at 996 days">
+
 ## Architecture
 
 <img src="docs/diagram.svg" width="960" alt="Delta table and spec feed offline, serving and referee; attribution classifies each pair and exits 0, 1 or 2">

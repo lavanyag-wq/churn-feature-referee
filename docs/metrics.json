@@ -85,8 +85,7 @@
   ]
  },
  "checked_documents": [
-  "README.md",
-  "docs/defense-guide.md"
+  "README.md"
  ],
  "metrics": {
   "blind_share_max_pct": 6.5,

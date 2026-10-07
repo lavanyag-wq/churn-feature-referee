@@ -64,10 +64,11 @@ jobs:
         run: python tools/collect_metrics.py --skip-tests --skip-experiments
       - name: Fail on any stale published number
         run: python tools/check_numbers.py
-      - name: Regenerate the diagram and fail if it drifted from the committed SVG
+      - name: Regenerate the diagram and charts; fail on any drift from the committed SVGs
         run: |
           python tools/render_diagram.py
-          git diff --exit-code docs/diagram.svg
+          python tools/render_charts.py
+          git diff --exit-code docs/diagram.svg docs/chart-blindspot.svg docs/chart-leak.svg
       - name: Publish the awkward table to the job summary
         run: |
           python - << 'PY' >> "$GITHUB_STEP_SUMMARY"
