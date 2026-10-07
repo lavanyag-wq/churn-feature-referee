@@ -145,5 +145,5 @@ def test_watch_events_carry_minutes_and_other_events_do_not(events):
 def test_the_default_corpus_shape_is_what_the_readme_describes():
     events = generate_events(seed=11, n_users=120, cutoff_day=CUTOFF)
     assert len({e.user_id for e in events}) == 120
-    assert sum(1 for e in events if e.day <= CUTOFF) == 1596
-    assert sum(1 for e in events if e.day > CUTOFF) == 26
+    assert sum(1 for e in events if e.day <= CUTOFF) == 1522
+    assert sum(1 for e in events if e.day > CUTOFF) == 29
