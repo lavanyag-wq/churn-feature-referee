@@ -1,0 +1,84 @@
+{
+ "cutoff_day": 400,
+ "n_users": 120,
+ "rows": [
+  {
+   "agree_wrong": 0,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 0,
+   "parity_mismatches": 0,
+   "scenario": "clean",
+   "serving_wrong": 0,
+   "verdict": "CLEAN",
+   "wrong_pairs": 0
+  },
+  {
+   "agree_wrong": 0,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 0,
+   "parity_mismatches": 35,
+   "scenario": "serving_window",
+   "serving_wrong": 35,
+   "verdict": "DEFECTS",
+   "wrong_pairs": 35
+  },
+  {
+   "agree_wrong": 0,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 0,
+   "parity_mismatches": 7,
+   "scenario": "null_bug",
+   "serving_wrong": 7,
+   "verdict": "DEFECTS",
+   "wrong_pairs": 7
+  },
+  {
+   "agree_wrong": 0,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 248,
+   "parity_mismatches": 248,
+   "scenario": "offline_leak",
+   "serving_wrong": 0,
+   "verdict": "DEFECTS",
+   "wrong_pairs": 248
+  },
+  {
+   "agree_wrong": 0,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 156,
+   "parity_mismatches": 156,
+   "scenario": "offline_tz",
+   "serving_wrong": 0,
+   "verdict": "DEFECTS",
+   "wrong_pairs": 156
+  },
+  {
+   "agree_wrong": 35,
+   "divergent": 0,
+   "n_pairs": 600,
+   "offline_wrong": 0,
+   "parity_mismatches": 0,
+   "scenario": "shared_window",
+   "serving_wrong": 0,
+   "verdict": "DEFECTS",
+   "wrong_pairs": 35
+  },
+  {
+   "agree_wrong": 9,
+   "divergent": 5,
+   "n_pairs": 600,
+   "offline_wrong": 234,
+   "parity_mismatches": 267,
+   "scenario": "messy",
+   "serving_wrong": 28,
+   "verdict": "UNATTRIBUTED",
+   "wrong_pairs": 276
+  }
+ ],
+ "seed": 11
+}

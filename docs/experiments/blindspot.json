@@ -1,0 +1,46 @@
+{
+ "headline_seed": 11,
+ "rows": [
+  {
+   "affected_users": 17,
+   "agree_wrong": 35,
+   "n_pairs": 600,
+   "parity_mismatches": 0,
+   "seed": 11,
+   "wrong_share_pct": 5.8
+  },
+  {
+   "affected_users": 12,
+   "agree_wrong": 26,
+   "n_pairs": 600,
+   "parity_mismatches": 0,
+   "seed": 12,
+   "wrong_share_pct": 4.3
+  },
+  {
+   "affected_users": 19,
+   "agree_wrong": 39,
+   "n_pairs": 600,
+   "parity_mismatches": 0,
+   "seed": 13,
+   "wrong_share_pct": 6.5
+  },
+  {
+   "affected_users": 14,
+   "agree_wrong": 30,
+   "n_pairs": 600,
+   "parity_mismatches": 0,
+   "seed": 14,
+   "wrong_share_pct": 5.0
+  },
+  {
+   "affected_users": 10,
+   "agree_wrong": 21,
+   "n_pairs": 600,
+   "parity_mismatches": 0,
+   "seed": 15,
+   "wrong_share_pct": 3.5
+  }
+ ],
+ "scenario": "shared exclusive_window on both sides"
+}

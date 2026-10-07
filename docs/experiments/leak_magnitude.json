@@ -1,0 +1,37 @@
+{
+ "n_users": 120,
+ "rows": [
+  {
+   "corrupted_pairs": 29,
+   "feature": "logins_30d",
+   "mean_abs_error": 1.03,
+   "worst_abs_error": 2.0
+  },
+  {
+   "corrupted_pairs": 29,
+   "feature": "watch_minutes_7d",
+   "mean_abs_error": 122.24,
+   "worst_abs_error": 434.0
+  },
+  {
+   "corrupted_pairs": 20,
+   "feature": "tickets_90d",
+   "mean_abs_error": 1.2,
+   "worst_abs_error": 3.0
+  },
+  {
+   "corrupted_pairs": 56,
+   "feature": "active_days_30d",
+   "mean_abs_error": 1.07,
+   "worst_abs_error": 2.0
+  },
+  {
+   "corrupted_pairs": 114,
+   "feature": "days_since_last_login",
+   "mean_abs_error": 15.63,
+   "worst_abs_error": 996.0
+  }
+ ],
+ "seed": 11,
+ "total_corrupted_pairs": 248
+}

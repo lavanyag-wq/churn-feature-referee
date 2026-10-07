@@ -82,8 +82,9 @@ def generate_events(seed: int, n_users: int = 120, cutoff_day: int = 400,
             etype = rng.choice(EVENT_TYPES)
             add(user, day, etype, rng.randint(5, 180) if etype == "watch" else 0.0)
         if rng.random() < 0.25:
+            late_type = rng.choice(EVENT_TYPES)
             add(user, rng.randint(cutoff_day + 1, cutoff_day + future_days),
-                rng.choice(EVENT_TYPES), 0.0)
+                late_type, rng.randint(5, 180) if late_type == "watch" else 0.0)
     events.sort(key=lambda e: (e.user_id, e.day, e.etype, e.minutes))
     return events
 
