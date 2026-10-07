@@ -1,0 +1,115 @@
+{
+ "anchors": {
+  "blind_share_max_pct": [
+   "and {}% of pairs"
+  ],
+  "blind_share_min_pct": [
+   "between {}%"
+  ],
+  "coverage_line_pct": [
+   "{}% line coverage",
+   "coverage of {}%"
+  ],
+  "late_events": [
+   "{} late-arriving events",
+   "{} events dated after"
+  ],
+  "leak_total_pairs": [
+   "corrupts {} of the",
+   "{} pairs, and names"
+  ],
+  "leak_watch_mean": [
+   "average of {} minutes",
+   "{} minutes of phantom"
+  ],
+  "leak_worst_days": [
+   "off by {} days",
+   "{} days wrong"
+  ],
+  "messy_divergent": [
+   "{} pairs where all three",
+   "{} divergent pairs"
+  ],
+  "messy_parity": [
+   "parity sees {} mismatches",
+   "{} mismatches in the messy"
+  ],
+  "messy_wrong": [
+   "{} pairs are actually wrong",
+   "{} actually wrong"
+  ],
+  "n_features": [
+   "{} declared features",
+   "{} features"
+  ],
+  "n_pairs": [
+   "{} user-feature pairs",
+   "{} pairs"
+  ],
+  "n_users": [
+   "{} users",
+   "{} seeded users"
+  ],
+  "null_bug_wrong": [
+   "the {} never-login",
+   "{} users who never"
+  ],
+  "serving_window_wrong": [
+   "attributes all {} mismatches",
+   "{} mismatched pairs, every one"
+  ],
+  "shared_agree_wrong": [
+   "{} pairs are wrong",
+   "{} wrong pairs",
+   "referee finds {}"
+  ],
+  "shared_parity": [
+   "parity reports {} mismatches",
+   "parity check reports {}"
+  ],
+  "shared_share_pct": [
+   "{}% of all pairs",
+   "{}% of the pairs"
+  ],
+  "shared_users": [
+   "across {} users",
+   "{} users carry"
+  ],
+  "snapshot_events": [
+   "{} events at or before",
+   "{} snapshot events"
+  ],
+  "tests_total": [
+   "{} tests",
+   "{} property-named tests"
+  ]
+ },
+ "checked_documents": [
+  "README.md",
+  "docs/defense-guide.md"
+ ],
+ "metrics": {
+  "blind_share_max_pct": 6.5,
+  "blind_share_min_pct": 3.5,
+  "coverage_line_pct": 100,
+  "late_events": 29,
+  "leak_total_pairs": 248,
+  "leak_watch_mean": 122.24,
+  "leak_worst_days": 996.0,
+  "messy_divergent": 5,
+  "messy_parity": 267,
+  "messy_wrong": 276,
+  "n_features": 5,
+  "n_pairs": 600,
+  "n_users": 120,
+  "null_bug_wrong": 7,
+  "serving_window_wrong": 35,
+  "shared_agree_wrong": 35,
+  "shared_parity": 0,
+  "shared_share_pct": 5.8,
+  "shared_users": 17,
+  "snapshot_events": 1522,
+  "tests_total": 73
+ },
+ "note": "every value is produced by running the suite and the experiments"
+}
